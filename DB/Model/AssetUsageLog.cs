@@ -22,17 +22,17 @@ namespace FtisHelperAsset.DB.Model
         public string AssetsAssetID { get; set; }
 
         [Required]
-        [ColumnDef(Display = "原保管人", VisibleEdit = false, EditType = EditType.Select, SelectItemsClassNamespace = EmpSelectItemsClassImp.AssemblyQualifiedName, Sortable = true)]
+        [ColumnDef(Display = "原保管人", VisibleEdit = false, EditType = EditType.Select, SelectItemsClassNamespace = EmpSelectAllItemsClassImp.AssemblyQualifiedName, Sortable = true)]
         [StringLength(6)]
         public string CustodianSourceID { get; set; }
 
         [Required]
-        [ColumnDef(Display = "目標保管人", VisibleEdit = false, EditType = EditType.Select, SelectItemsClassNamespace = EmpSelectItemsClassImp.AssemblyQualifiedName, Sortable = true)]
+        [ColumnDef(Display = "目標保管人", VisibleEdit = false, EditType = EditType.Select, SelectItemsClassNamespace = EmpSelectAllItemsClassImp.AssemblyQualifiedName, Sortable = true)]
         [StringLength(6)]
         public string CustodianTargetID { get; set; }
 
         [Required]
-        [ColumnDef(Display = "異動人員", VisibleEdit = false, EditType = EditType.Select, SelectItemsClassNamespace = EmpSelectItemsClassImp.AssemblyQualifiedName, Sortable = true)]
+        [ColumnDef(Display = "異動人員", VisibleEdit = false, EditType = EditType.Select, SelectItemsClassNamespace = EmpSelectAllItemsClassImp.AssemblyQualifiedName, Sortable = true)]
         [StringLength(6)]
         public string UpdateMan { get; set; }
 

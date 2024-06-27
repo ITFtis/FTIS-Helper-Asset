@@ -41,7 +41,7 @@ namespace FtisHelperAsset.DB
     }
     public class EmpSelectAllItemsClassImp : SelectItemsClass
     {
-        public const string AssemblyQualifiedName = "FtisHelperAsset.DB.EmpSelectItemsClassImp, FtisHelperAsset";
+        public const string AssemblyQualifiedName = "FtisHelperAsset.DB.EmpSelectAllItemsClassImp, FtisHelperAsset";
 
         protected static IEnumerable<F22cmmEmpData> _emps;
         protected static new IEnumerable<F22cmmEmpData> EMPS
@@ -52,6 +52,10 @@ namespace FtisHelperAsset.DB
                 if (_emps == null)
                 {
                     _emps = Helpe.Employee.GetAllEmployee();// && s.Fno=="F01721");
+                    foreach (var emp in _emps)
+                    {
+                        emp.Name = emp.Quit == true && emp.Name.IndexOf("(離)") < 0 ? string.Format("{0}(離)", emp.Name) : emp.Name;
+                    }
                     DouHelper.Misc.AddCache(_emps, AssemblyQualifiedName);
                 }
                 return _emps;
@@ -61,9 +65,9 @@ namespace FtisHelperAsset.DB
         {
             return EMPS.Select(s => new KeyValuePair<string, object>(s.Fno, "{\"v\":\"" + s.Name + "\",\"dcode\":\"" + s.DCode + "\"}"));
         }
-        public static void ResetF22cmmEmpData()
+        public static void ResetAllF22cmmEmpData()
         {
-            Misc.ClearCache("FtisHelperAsset.DB.EmpSelectItemsClassImp, FtisHelperAsset");
+            Misc.ClearCache("FtisHelperAsset.DB.EmpSelectAllItemsClassImp, FtisHelperAsset");
         }
     }
     public class DepartmentSelectItemsClassImp : SelectItemsClass

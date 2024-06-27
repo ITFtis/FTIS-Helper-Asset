@@ -77,6 +77,10 @@
     <Compile Include="DB\Model\AssetLoans.cs" />
     <Compile Include="DB\Model\AssetLocations.cs" />
     <Compile Include="DB\Model\AssetRepairs.cs" />
+    <Compile Include="DB\Model\vw_Rpt_Equipment_SubCate.cs" />
+    <Compile Include="DB\Model\vw_Rpt_Equipment_Group.cs" />
+    <Compile Include="DB\Model\vw_Rpt_Equipment.cs" />
+    <Compile Include="DB\Model\AssetUser.cs" />
     <Compile Include="DB\Model\Assets.cs" />
     <Compile Include="DB\Model\AssetCompanies.cs" />
     <Compile Include="DB\Model\AssetStatus.cs" />

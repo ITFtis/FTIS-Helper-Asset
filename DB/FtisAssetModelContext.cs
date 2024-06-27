@@ -65,6 +65,9 @@ namespace FtisHelperAsset.DB
         public virtual DbSet<AssetUnits> AssetUnits { get; set; }
         public virtual DbSet<AssetUsageLog> AssetUsageLog { get; set; }
         public virtual DbSet<AssetCompanies> AssetCompanies { get; set; }
+        public virtual DbSet<vw_Rpt_Equipment> vw_Rpt_Equipment { get; set; }
+        public virtual DbSet<vw_Rpt_Equipment_SubCate> vw_Rpt_Equipment_SubCate { get; set; }
+        public virtual DbSet<vw_Rpt_Equipment_Group> vw_Rpt_Equipment_Group { get; set; }
 
         // public virtual DbSet<MyEntity> MyEntities { get; set; }
 

@@ -117,6 +117,29 @@ namespace FtisHelperAsset.DB.Helpe
             //DouHelper.Misc.ClearCache(GetEmployeeIncludeSeat_Cache_Key);
         }
         /// <summary>
+        /// 新增或更新DisposalLog
+        /// </summary>
+        /// <param name="log"></param>
+        public static void AddOrUpdateDisposalLog(AssetDisposals log)
+        {
+            using (var cxt = Helper.CreateFtisAssetModelContext())
+            {
+                var me = new Dou.Models.DB.ModelEntity<AssetDisposals>(cxt);
+                var ss = me.FirstOrDefault(s => s.AssetID == log.AssetID);
+                if (me.FirstOrDefault(s => s.AssetID == log.AssetID) == null)
+                {
+                    me.Add(log);
+                }
+                else
+                {
+                    log.AssetID = ss.AssetID;
+                    me.Update(log);
+                }
+            }
+            DouHelper.Misc.ClearCache("FtisHelperAsset.DB.Model.AssetDisposals");
+        }
+
+        /// <summary>
         /// 新增InventoryLog
         /// </summary>
         /// <param name="log"></param>
@@ -139,23 +162,7 @@ namespace FtisHelperAsset.DB.Helpe
             }
             DouHelper.Misc.ClearCache("FtisHelperAsset.DB.Model.AssetInventoryLog");
         }                   
-        /// <summary>
-        /// 依Fno取Asset
-        /// </summary>
-        /// <param name="uid">員工編號</param>
-        /// <param name="cachetimer">資料快取時間(毫秒),預設30分</param>
-        /// <returns>Employee</returns>
-        public static Assets GetEmployeeAsset(string Fno, int cachetimer = Helper.shortcacheduration)
-        {
-            if (string.IsNullOrEmpty(Fno))
-                return null;
-            return GetAllAssets(cachetimer).FirstOrDefault(m => m.CustodianID == Fno);
-        }
-        public static void ResetGetEmployeeAsset()
-        {
-            string key = "FtisHelperAsset.DB.Model.Assets";
-            DouHelper.Misc.ClearCache(key);
-        }
+
         /// <summary>
         /// 取所有資產
         /// </summary>
