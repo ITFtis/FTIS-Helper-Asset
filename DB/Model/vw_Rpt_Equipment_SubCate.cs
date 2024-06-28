@@ -9,14 +9,14 @@ namespace FtisHelperAsset.DB.Model
 
     public partial class vw_Rpt_Equipment_SubCate
     {
-        [ColumnDef(Display = "類別編號", EditType = EditType.Select,
+        [ColumnDef(Display = "類別", EditType = EditType.Select,
             SelectItemsClassNamespace = CatesSelectItemsClassImp.AssemblyQualifiedName
             , Filter = true, FilterAssign = FilterAssignType.Equal, Sortable = true)]
         [StringLength(5)]
         public string CateID { get; set; }
 
         [Key]
-        [ColumnDef(Display = "次類別編號", EditType = EditType.Select,
+        [ColumnDef(Display = "次類別", EditType = EditType.Select,
             SelectItemsClassNamespace = SubCatesSelectItemsClassImp.AssemblyQualifiedName, Sortable = true)]
         [StringLength(5)]
         public string SubCateID { get; set; }

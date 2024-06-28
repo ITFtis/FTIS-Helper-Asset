@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "D:\\SourceCode\\FTIS-Helper-Asset\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|D:\\SourceCode\\FTIS-Helper-Asset\\db\\helpe\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|D:\\SourceCode\\FTIS-Helper-Asset\\db\\model\\vw_rpt_equipment_subcate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|solutionrelative:db\\model\\vw_rpt_equipment_subcate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|D:\\SourceCode\\FTIS-Helper-Asset\\db\\model\\vw_rpt_equipment_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|solutionrelative:db\\model\\vw_rpt_equipment_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|d:\\sourcecode\\ftis-helper-asset\\db\\helpe\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|solutionrelative:db\\helpe\\asset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,7 +38,7 @@
       "RelativeMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|solutionrelative:db\\selectitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|d:\\sourcecode\\ftis-helper-asset\\db\\model\\assetsubcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|D:\\SourceCode\\FTIS-Helper-Asset\\db\\model\\assetsubcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|solutionrelative:db\\model\\assetsubcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -44,14 +52,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|D:\\SourceCode\\FTIS-Helper-Asset\\db\\model\\vw_rpt_equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|solutionrelative:db\\model\\vw_rpt_equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|d:\\sourcecode\\ftis-helper-asset\\db\\model\\vw_rpt_equipment_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|solutionrelative:db\\model\\vw_rpt_equipment_group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|d:\\sourcecode\\ftis-helper-asset\\db\\model\\vw_rpt_equipment_subcate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|solutionrelative:db\\model\\vw_rpt_equipment_subcate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{700E153B-0E26-4F55-BECB-99B2565264C7}|FtisHelperAsset.csproj|D:\\SourceCode\\FTIS-Helper-Asset\\db\\model\\assetinventories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,11 +93,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AssetSubCategories.cs",
               "DocumentMoniker": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\Model\\AssetSubCategories.cs",
               "RelativeDocumentMoniker": "DB\\Model\\AssetSubCategories.cs",
@@ -105,29 +109,24 @@
               "RelativeToolTip": "DB\\Model\\AssetSubCategories.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T06:18:04.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-27T06:18:04.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "vw_Rpt_Equipment_SubCate.cs",
               "DocumentMoniker": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\Model\\vw_Rpt_Equipment_SubCate.cs",
               "RelativeDocumentMoniker": "DB\\Model\\vw_Rpt_Equipment_SubCate.cs",
               "ToolTip": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\Model\\vw_Rpt_Equipment_SubCate.cs",
               "RelativeToolTip": "DB\\Model\\vw_Rpt_Equipment_SubCate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-27T05:58:13.223Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "vw_Rpt_Equipment_Group.cs",
               "DocumentMoniker": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\Model\\vw_Rpt_Equipment_Group.cs",
               "RelativeDocumentMoniker": "DB\\Model\\vw_Rpt_Equipment_Group.cs",
@@ -152,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "vw_Rpt_Equipment.cs",
               "DocumentMoniker": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\Model\\vw_Rpt_Equipment.cs",
               "RelativeDocumentMoniker": "DB\\Model\\vw_Rpt_Equipment.cs",
@@ -160,12 +159,11 @@
               "RelativeToolTip": "DB\\Model\\vw_Rpt_Equipment.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAuwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T08:26:30.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T08:26:30.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AssetUser.cs",
               "DocumentMoniker": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\Model\\AssetUser.cs",
               "RelativeDocumentMoniker": "DB\\Model\\AssetUser.cs",
@@ -173,12 +171,11 @@
               "RelativeToolTip": "DB\\Model\\AssetUser.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-07T09:06:45.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-07T09:06:45.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "AssetUsageLog.cs",
               "DocumentMoniker": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\Model\\AssetUsageLog.cs",
               "RelativeDocumentMoniker": "DB\\Model\\AssetUsageLog.cs",
@@ -186,8 +183,7 @@
               "RelativeToolTip": "DB\\Model\\AssetUsageLog.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAABAwBgAAAB9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-05T06:30:00.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-01-05T06:30:00.274Z"
             },
             {
               "$type": "Document",
@@ -199,8 +195,7 @@
               "RelativeToolTip": "DB\\Model\\AssetInventories.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-03T09:02:13.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-01-03T09:02:13.153Z"
             },
             {
               "$type": "Document",
@@ -216,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Constant.cs",
               "DocumentMoniker": "D:\\project\\FTIS-Lottery-Front\\_core\\Constant.cs",
               "RelativeDocumentMoniker": "..\\..\\project\\FTIS-Lottery-Front\\_core\\Constant.cs",
@@ -224,12 +219,11 @@
               "RelativeToolTip": "..\\..\\project\\FTIS-Lottery-Front\\_core\\Constant.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-20T05:18:40.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-20T05:18:40.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "SelectItems.cs",
               "DocumentMoniker": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\SelectItems.cs",
               "RelativeDocumentMoniker": "DB\\SelectItems.cs",
@@ -237,12 +231,11 @@
               "RelativeToolTip": "DB\\SelectItems.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAwwDgAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-21T00:38:17.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-21T00:38:17.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AssetSuppliers.cs",
               "DocumentMoniker": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\Model\\AssetSuppliers.cs",
               "RelativeDocumentMoniker": "DB\\Model\\AssetSuppliers.cs",
@@ -250,8 +243,7 @@
               "RelativeToolTip": "DB\\Model\\AssetSuppliers.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-21T00:38:17.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-21T00:38:17.747Z"
             },
             {
               "$type": "Document",
@@ -279,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AssetSelectItems.cs",
               "DocumentMoniker": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\AssetSelectItems.cs",
               "RelativeDocumentMoniker": "DB\\AssetSelectItems.cs",
@@ -287,12 +279,11 @@
               "RelativeToolTip": "DB\\AssetSelectItems.cs",
               "ViewState": "AQIAAEoAAAAAAAAAAAAAwFAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-21T00:38:17.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-21T00:38:17.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AssetCompanies.cs",
               "DocumentMoniker": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\Model\\AssetCompanies.cs",
               "RelativeDocumentMoniker": "DB\\Model\\AssetCompanies.cs",
@@ -300,12 +291,11 @@
               "RelativeToolTip": "DB\\Model\\AssetCompanies.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-21T00:38:17.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-21T00:38:17.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FtisAssetModelContext.cs",
               "DocumentMoniker": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\FtisAssetModelContext.cs",
               "RelativeDocumentMoniker": "DB\\FtisAssetModelContext.cs",
@@ -313,18 +303,17 @@
               "RelativeToolTip": "DB\\FtisAssetModelContext.cs",
               "ViewState": "AQIAADgAAAAAAAAAAAAswEQAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-21T00:38:17.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-21T00:38:17.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Asset.cs",
               "DocumentMoniker": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\Helpe\\Asset.cs",
               "RelativeDocumentMoniker": "DB\\Helpe\\Asset.cs",
               "ToolTip": "D:\\SourceCode\\FTIS-Helper-Asset\\DB\\Helpe\\Asset.cs",
               "RelativeToolTip": "DB\\Helpe\\Asset.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBkAAAAVAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA0wBkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-12-21T00:38:17.75Z",
               "EditorCaption": ""
